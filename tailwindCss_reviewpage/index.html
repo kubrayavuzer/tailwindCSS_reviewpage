@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
+    <title>TailwindCSS</title>
+
+</head>
+<body class="bg-gray-100">
+    <!--navbar-->
+    <nav class="bg-white shadow">
+        <div class="container mx-auto px-4 py-5 flex justify-between items-center">
+            <div class="flex items-center space-x-4">
+                <a href="#" class="text-gray-700 font-semibold">Kurumsal</a>
+                <a href="#" class="text-gray-700 font-semibold">Hizmetlerimiz</a>
+                <a href="#" class="text-gray-700 font-semibold">İletişim</a>
+            </div>
+            <div class="flex items-center space-x-4">
+                <input type="text" placeholder="Search.." class="border rounded px-2 py-1">
+                <button class="bg-indigo-300  text-white px-4 py-2 rounded">Log In</button>
+            </div>
+        </div>
+    </nav>
+
+    <section class="bg-gray-200 text-center py-20 " >
+        <h1 class="text-5xl font-semibold text-indigo-500 mt-10"
+        style="font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;">KARAHAN HUKUK</h1>
+        <p class="text-xl font-semibold text-gray-700 mt-10"
+        style="font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;">Kompleks hukuk süreçlerinde, 
+            güvenilir ve deneyimli ortağınız olarak size yol gösteriyoruz.
+        </p>
+        <div class="flex justify-center space-x-8 text-lg text-center mt-5">
+            <div class="flex items-center space-x-2 ">
+                <span class="text-gray-700">•</span>
+                <span>Uzman Çözümler</span>
+            </div>
+            <div class="flex items-center space-x-2">
+                <span class="text-gray-700">•</span>
+                <span>Hukuki Güven
+                </span>
+            </div>
+            <div class="flex items-center space-x-2">
+                <span class="text-gray-700">•</span>
+                <span>Kurumsal Uzmanlık
+                </span>
+            </div>
+        </div>
+        <div class="space-x-4">
+            <button class="bg-indigo-300 text-white px-6 py-3 rounded mt-10">İletişim Formu</button>
+            <button class="bg-gray-200 text-black px-6 py-3 rounded">Daha Fazla..</button>
+        </div>
+    </section>
+    <section class="py-16">
+        <div class="container mx-auto text-center mb-8">
+            <h2 class="text-3xl font-semibold text-gray-700" style="font-style: italic;">Sunduğumuz Hizmetler</h2>
+        </div>
+        <div class="container mx-auto grid grid-cols-4 gap-4 text-center"
+        style="font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif; font-size: 16px;">
+            <div class="bg-white shadow-md rounded px-8 pt-6 pb-8 mb-4">
+                <p>Şirketler ve Ticaret Hukuku</p>
+            </div>
+            <div class="bg-white shadow-md rounded px-8 pt-6 pb-8 mb-4">
+                <p>İş ve Sosyal Güvenlik Hukuku</p>
+            </div>
+            <div class="bg-white shadow-md rounded px-8 pt-6 pb-8 mb-4">
+                <p>Uyuşmazlık ve İcra Çözümü</p>
+            </div>
+            <div class="bg-white shadow-md rounded px-8 pt-6 pb-8 mb-4">
+                <p>Arabuluculuk</p>
+            </div>
+        </div>
+        
+    </section>
+    <section class="bg-gray-200 py-16">
+        <div class="container mx-auto max-w-md bg-white p-8 rounded shadow mt-4">
+            <h2 class="text-2xl text-center mb-4">İletişime Geç</h2>
+            <div class="mb-4">
+                <label for="name" class="block text-gray-700 mb-2"
+                style="font-size:18px ; font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;">İsim</label>
+                <input class="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline" id="name" type="text" placeholder="Adınızı girin">
+              </div>
+              <div class="mb-4">
+                <label for="email" class="block text-gray-700 mb-2"
+                style="font-size: 18px; font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;">Email</label>
+              <input class="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline" id="email" type="text" placeholder="Email girin">
+            </div>
+            <div class="mb-4">
+                <label for="message" class="block text-gray-700 mb-2"
+                style="font-size: 18px; font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;">Mesaj</label>
+              <input class="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline" id="message" type="text" placeholder="Mesajınızı girin">
+            </div>
+            <div class="flex items-center justify-between">
+                <button class="bg-indigo-300 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded focus:outline-none focus:shadow-outline" type="submit">Gönder</button>
+                
+            </div>
+        </div>
+    </section>
+</body>
+</html>
